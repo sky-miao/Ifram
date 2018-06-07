@@ -3,7 +3,6 @@
     <el-col :span="4" class="main-el-row">
       <el-menu
         default-active="1"
-        mode="horizontal"
         class="main-nav-page"
         background-color="#08274f"
         text-color="#fff"
@@ -17,7 +16,7 @@
     </el-col>
     <el-col :span="20" class="main-el-row">
       <div class="main-con-page">
-        adfasd
+        <iframe style="width: 100%; height: 99%" :src="url"></iframe>
       </div>
     </el-col>
   </el-row>
@@ -30,7 +29,8 @@ console.log(menuList[0].id, 56)
 export default {
   data () {
     return {
-      menuList: menuList
+      menuList: menuList,
+      url: 'http://www.baidu.com'
     }
   },
   components: {
