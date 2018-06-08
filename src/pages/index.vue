@@ -4,7 +4,6 @@
       <el-menu
         default-active="1"
         class="main-nav-page"
-        text-color="#fff"
         active-border-left="2px solid #ffd04b"
         active-text-color="#ffd04b">
         <template>
@@ -92,16 +91,18 @@ export default {
       .el-menu-item{
         height: 40px;
         line-height: 40px;
+        color: #808080;
         border-left: 2px solid #05172f;
         &:hover{
           background: #051226;
           border-left: 2px solid #ffd04b;
-          color: 'ffd04b',
+          color: #ffd04b,
         }
       }
       .item-active{
         border-left: 2px solid #ffd04b;
         background: #051226;
+        color: #ffd04b,
       }
       .item-logo{
         margin: 20px 0 20px 0;
@@ -137,7 +138,7 @@ export default {
       background: #05172f;
       li{
         border-bottom: 1px solid #2a4260;
-        color: #fff;
+        color: #808080;
         font-size: 14px;
         &:hover{
           color: #ffd04b;
