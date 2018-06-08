@@ -42,7 +42,7 @@ export default {
     return {
       menuVisible: false,
       menuList: menuList,
-      url: 'http://localhost:3001/#/',
+      url: 'http://localhost:3001',
       id: '1',
       itemId: '1'
     }

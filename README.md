@@ -1,30 +1,34 @@
-# vue-cli
+# Iframe
 
-> A Vue.js project
+About sharding integration frame
 
-## Build Setup
+## Prerequisite
+* node
+* npm
 
+## Installation
+make sure you have node.js and npm installed
+``` bash
+# clone dashboard repository
+git clone https://github.com/sky-miao/Ifram.git
+cd Iframe
+# install the dependencies
+npm install
+# start dashboard front
+npm run dev
+```
+
+## View
+see seele dashboard at http://localhost:8081(default)
+
+## Commands
 ``` bash
 # install dependencies
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
+# start server
+npm run start  
+# code check
+npm run lint
+# build for production
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
